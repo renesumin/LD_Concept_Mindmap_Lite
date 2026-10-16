@@ -1,0 +1,8 @@
+export function downloadBlob(blob: Blob, filename: string): void {
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement('a');
+  link.href = url; link.download = filename;
+  document.body.append(link); link.click(); link.remove();
+  // Leave time for large downloads to start before releasing the object URL.
+  window.setTimeout(() => URL.revokeObjectURL(url), 30_000);
+}

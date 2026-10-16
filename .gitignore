@@ -1,0 +1,47 @@
+node_modules/
+dist/
+*.local
+
+# Local tooling, caches and generated output
+.vite/
+coverage/
+test-results/
+playwright-report/
+artifacts/
+tmp/
+temp/
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.codex/
+.agents/
+
+# Credentials and machine-local configuration
+.env
+.env.*
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+
+# User data: keep it outside public/ and src/.
+private/
+user-data/
+sessions/
+downloads/
+*_mindmap.png
+
+# JSON is private by default; allow only required config and the reviewed demo.
+*.json
+!/package.json
+!/package-lock.json
+!/tsconfig.json
+!/public/sample-generation.json

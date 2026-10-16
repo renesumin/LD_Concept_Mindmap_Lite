@@ -1,0 +1,532 @@
+{
+  "nodes": [
+    {
+      "id": "era-1",
+      "depth": 1,
+      "parentId": "axis-era",
+      "text": "고대",
+      "axis": "era"
+    },
+    {
+      "id": "era-2",
+      "depth": 1,
+      "parentId": "axis-era",
+      "text": "중세",
+      "axis": "era"
+    },
+    {
+      "id": "era-3",
+      "depth": 1,
+      "parentId": "axis-era",
+      "text": "미래",
+      "axis": "era"
+    },
+    {
+      "id": "era-4",
+      "depth": 2,
+      "parentId": "era-1",
+      "text": "유적",
+      "axis": "era"
+    },
+    {
+      "id": "era-5",
+      "depth": 2,
+      "parentId": "era-1",
+      "text": "신전",
+      "axis": "era"
+    },
+    {
+      "id": "era-6",
+      "depth": 2,
+      "parentId": "era-1",
+      "text": "왕국",
+      "axis": "era"
+    },
+    {
+      "id": "era-7",
+      "depth": 2,
+      "parentId": "era-1",
+      "text": "성채",
+      "axis": "era"
+    },
+    {
+      "id": "era-8",
+      "depth": 2,
+      "parentId": "era-2",
+      "text": "시장",
+      "axis": "era"
+    },
+    {
+      "id": "era-9",
+      "depth": 2,
+      "parentId": "era-2",
+      "text": "항구",
+      "axis": "era"
+    },
+    {
+      "id": "era-10",
+      "depth": 2,
+      "parentId": "era-2",
+      "text": "궤도",
+      "axis": "era"
+    },
+    {
+      "id": "era-11",
+      "depth": 2,
+      "parentId": "era-2",
+      "text": "도시",
+      "axis": "era"
+    },
+    {
+      "id": "era-12",
+      "depth": 2,
+      "parentId": "era-3",
+      "text": "탐사",
+      "axis": "era"
+    },
+    {
+      "id": "era-13",
+      "depth": 2,
+      "parentId": "era-3",
+      "text": "석조",
+      "axis": "era"
+    },
+    {
+      "id": "era-14",
+      "depth": 2,
+      "parentId": "era-3",
+      "text": "네온",
+      "axis": "era"
+    },
+    {
+      "id": "era-15",
+      "depth": 2,
+      "parentId": "era-3",
+      "text": "기계",
+      "axis": "era"
+    },
+    {
+      "id": "genre-1",
+      "depth": 1,
+      "parentId": "axis-genre",
+      "text": "판타지",
+      "axis": "genre"
+    },
+    {
+      "id": "genre-2",
+      "depth": 1,
+      "parentId": "axis-genre",
+      "text": "미스터리",
+      "axis": "genre"
+    },
+    {
+      "id": "genre-3",
+      "depth": 1,
+      "parentId": "axis-genre",
+      "text": "SF",
+      "axis": "genre"
+    },
+    {
+      "id": "genre-4",
+      "depth": 2,
+      "parentId": "genre-1",
+      "text": "마법",
+      "axis": "genre"
+    },
+    {
+      "id": "genre-5",
+      "depth": 2,
+      "parentId": "genre-1",
+      "text": "전설",
+      "axis": "genre"
+    },
+    {
+      "id": "genre-6",
+      "depth": 2,
+      "parentId": "genre-1",
+      "text": "모험",
+      "axis": "genre"
+    },
+    {
+      "id": "genre-7",
+      "depth": 2,
+      "parentId": "genre-1",
+      "text": "단서",
+      "axis": "genre"
+    },
+    {
+      "id": "genre-8",
+      "depth": 2,
+      "parentId": "genre-2",
+      "text": "비밀",
+      "axis": "genre"
+    },
+    {
+      "id": "genre-9",
+      "depth": 2,
+      "parentId": "genre-2",
+      "text": "추리",
+      "axis": "genre"
+    },
+    {
+      "id": "genre-10",
+      "depth": 2,
+      "parentId": "genre-2",
+      "text": "우주",
+      "axis": "genre"
+    },
+    {
+      "id": "genre-11",
+      "depth": 2,
+      "parentId": "genre-2",
+      "text": "로봇",
+      "axis": "genre"
+    },
+    {
+      "id": "genre-12",
+      "depth": 2,
+      "parentId": "genre-3",
+      "text": "외계",
+      "axis": "genre"
+    },
+    {
+      "id": "genre-13",
+      "depth": 2,
+      "parentId": "genre-3",
+      "text": "서사",
+      "axis": "genre"
+    },
+    {
+      "id": "genre-14",
+      "depth": 2,
+      "parentId": "genre-3",
+      "text": "긴장",
+      "axis": "genre"
+    },
+    {
+      "id": "genre-15",
+      "depth": 2,
+      "parentId": "genre-3",
+      "text": "발견",
+      "axis": "genre"
+    },
+    {
+      "id": "action-1",
+      "depth": 1,
+      "parentId": "axis-action",
+      "text": "탐색",
+      "axis": "action"
+    },
+    {
+      "id": "action-2",
+      "depth": 1,
+      "parentId": "axis-action",
+      "text": "잠입",
+      "axis": "action"
+    },
+    {
+      "id": "action-3",
+      "depth": 1,
+      "parentId": "axis-action",
+      "text": "도약",
+      "axis": "action"
+    },
+    {
+      "id": "action-4",
+      "depth": 2,
+      "parentId": "action-1",
+      "text": "관찰",
+      "axis": "action"
+    },
+    {
+      "id": "action-5",
+      "depth": 2,
+      "parentId": "action-1",
+      "text": "추적",
+      "axis": "action"
+    },
+    {
+      "id": "action-6",
+      "depth": 2,
+      "parentId": "action-1",
+      "text": "발견",
+      "axis": "action"
+    },
+    {
+      "id": "action-7",
+      "depth": 2,
+      "parentId": "action-1",
+      "text": "은신",
+      "axis": "action"
+    },
+    {
+      "id": "action-8",
+      "depth": 2,
+      "parentId": "action-2",
+      "text": "우회",
+      "axis": "action"
+    },
+    {
+      "id": "action-9",
+      "depth": 2,
+      "parentId": "action-2",
+      "text": "회피",
+      "axis": "action"
+    },
+    {
+      "id": "action-10",
+      "depth": 2,
+      "parentId": "action-2",
+      "text": "점프",
+      "axis": "action"
+    },
+    {
+      "id": "action-11",
+      "depth": 2,
+      "parentId": "action-2",
+      "text": "등반",
+      "axis": "action"
+    },
+    {
+      "id": "action-12",
+      "depth": 2,
+      "parentId": "action-3",
+      "text": "활강",
+      "axis": "action"
+    },
+    {
+      "id": "action-13",
+      "depth": 2,
+      "parentId": "action-3",
+      "text": "선택",
+      "axis": "action"
+    },
+    {
+      "id": "action-14",
+      "depth": 2,
+      "parentId": "action-3",
+      "text": "해석",
+      "axis": "action"
+    },
+    {
+      "id": "action-15",
+      "depth": 2,
+      "parentId": "action-3",
+      "text": "돌파",
+      "axis": "action"
+    },
+    {
+      "id": "space-1",
+      "depth": 1,
+      "parentId": "axis-space",
+      "text": "수직",
+      "axis": "space"
+    },
+    {
+      "id": "space-2",
+      "depth": 1,
+      "parentId": "axis-space",
+      "text": "지하",
+      "axis": "space"
+    },
+    {
+      "id": "space-3",
+      "depth": 1,
+      "parentId": "axis-space",
+      "text": "개방",
+      "axis": "space"
+    },
+    {
+      "id": "space-4",
+      "depth": 2,
+      "parentId": "space-1",
+      "text": "탑",
+      "axis": "space"
+    },
+    {
+      "id": "space-5",
+      "depth": 2,
+      "parentId": "space-1",
+      "text": "절벽",
+      "axis": "space"
+    },
+    {
+      "id": "space-6",
+      "depth": 2,
+      "parentId": "space-1",
+      "text": "다리",
+      "axis": "space"
+    },
+    {
+      "id": "space-7",
+      "depth": 2,
+      "parentId": "space-1",
+      "text": "동굴",
+      "axis": "space"
+    },
+    {
+      "id": "space-8",
+      "depth": 2,
+      "parentId": "space-2",
+      "text": "터널",
+      "axis": "space"
+    },
+    {
+      "id": "space-9",
+      "depth": 2,
+      "parentId": "space-2",
+      "text": "벙커",
+      "axis": "space"
+    },
+    {
+      "id": "space-10",
+      "depth": 2,
+      "parentId": "space-2",
+      "text": "광장",
+      "axis": "space"
+    },
+    {
+      "id": "space-11",
+      "depth": 2,
+      "parentId": "space-2",
+      "text": "정원",
+      "axis": "space"
+    },
+    {
+      "id": "space-12",
+      "depth": 2,
+      "parentId": "space-3",
+      "text": "해안",
+      "axis": "space"
+    },
+    {
+      "id": "space-13",
+      "depth": 2,
+      "parentId": "space-3",
+      "text": "경계",
+      "axis": "space"
+    },
+    {
+      "id": "space-14",
+      "depth": 2,
+      "parentId": "space-3",
+      "text": "통로",
+      "axis": "space"
+    },
+    {
+      "id": "space-15",
+      "depth": 2,
+      "parentId": "space-3",
+      "text": "전망",
+      "axis": "space"
+    },
+    {
+      "id": "element-1",
+      "depth": 1,
+      "parentId": "axis-element",
+      "text": "랜드마크",
+      "axis": "element"
+    },
+    {
+      "id": "element-2",
+      "depth": 1,
+      "parentId": "axis-element",
+      "text": "장애물",
+      "axis": "element"
+    },
+    {
+      "id": "element-3",
+      "depth": 1,
+      "parentId": "axis-element",
+      "text": "길잡이",
+      "axis": "element"
+    },
+    {
+      "id": "element-4",
+      "depth": 2,
+      "parentId": "element-1",
+      "text": "조각상",
+      "axis": "element"
+    },
+    {
+      "id": "element-5",
+      "depth": 2,
+      "parentId": "element-1",
+      "text": "등대",
+      "axis": "element"
+    },
+    {
+      "id": "element-6",
+      "depth": 2,
+      "parentId": "element-1",
+      "text": "거목",
+      "axis": "element"
+    },
+    {
+      "id": "element-7",
+      "depth": 2,
+      "parentId": "element-1",
+      "text": "문",
+      "axis": "element"
+    },
+    {
+      "id": "element-8",
+      "depth": 2,
+      "parentId": "element-2",
+      "text": "잔해",
+      "axis": "element"
+    },
+    {
+      "id": "element-9",
+      "depth": 2,
+      "parentId": "element-2",
+      "text": "함정",
+      "axis": "element"
+    },
+    {
+      "id": "element-10",
+      "depth": 2,
+      "parentId": "element-2",
+      "text": "빛",
+      "axis": "element"
+    },
+    {
+      "id": "element-11",
+      "depth": 2,
+      "parentId": "element-2",
+      "text": "표식",
+      "axis": "element"
+    },
+    {
+      "id": "element-12",
+      "depth": 2,
+      "parentId": "element-3",
+      "text": "소리",
+      "axis": "element"
+    },
+    {
+      "id": "element-13",
+      "depth": 2,
+      "parentId": "element-3",
+      "text": "실루엣",
+      "axis": "element"
+    },
+    {
+      "id": "element-14",
+      "depth": 2,
+      "parentId": "element-3",
+      "text": "그림자",
+      "axis": "element"
+    },
+    {
+      "id": "element-15",
+      "depth": 2,
+      "parentId": "element-3",
+      "text": "색채",
+      "axis": "element"
+    }
+  ],
+  "schemaVersion": "1.0",
+  "type": "generation",
+  "concept": "잊힌 도시의 탐험"
+}
